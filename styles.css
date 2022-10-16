@@ -14,13 +14,63 @@ body {
     padding: 0px;
     height: 50px;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.heading-logo {
+    font-size: 24px;
+    font: #F9FAF8;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 10px;
+    color: gray;
+}
 
+.content1 {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+
+.content1-left {
+    width: 400px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: #F9FAF8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.content1-img {
+    background-color: gray;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
 }
