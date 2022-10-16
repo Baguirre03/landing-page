@@ -106,11 +106,51 @@ button {
 }
 
 .content3 {
+    display: flex;
     background-color: #E5E7EB;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 80px;
 }
 
 #quote {
     font-size: 32px;
     font-style: italic;
     color: #1F2937;
+    margin: 0px;
+}
+
+#person {
+    display: flex;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.content4 {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 1000px;
+    justify-content: space-between;
+    padding: 50px;
+    height: 100px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+#signup {
+    border-color: black;
+    border: 10px;
+    background-color: gray;
 }
