@@ -81,30 +81,6 @@ button {
     align-items: center;
 }
 
-.picture-text-boxes {
-    display: flex;
-    gap: 80px;
-    justify-content: space-around;
-}
-
-.imgs {
-    border: blue 3px solid;
-    width: 150px;
-    border-radius: 10px;
-    height: 150px;
-
-}
-
-.picture-text {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    width: 150px;
-    justify-content: center;
-    gap: 80px;
-    height: 150px;
-}
-
 .content3 {
     display: flex;
     background-color: #E5E7EB;
