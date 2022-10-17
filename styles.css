@@ -66,7 +66,7 @@ button {
     padding-right: 25px;
 }
 
-.content1-img {
+#content1-img {
     background-color: gray;
     border: 2px black solid;
     display: flex;
@@ -93,7 +93,11 @@ button {
     display: flex;
     justify-content: space-evenly;
 }
-
+ 
+img {
+    width: 100%;
+    height: 100%;
+}
 .boxes-all {
     display: flex;
     gap: 10px;
